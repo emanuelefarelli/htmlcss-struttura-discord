@@ -28,6 +28,15 @@ ul{
     justify-content: space-around;
 }
 
+.container-dim{
+    height: 550px;
+}
+
+.dim{
+    width: 70%;
+    height: 450px;
+}
+
 header div{
     width: 70%;
 }
@@ -62,4 +71,43 @@ header div>*{
     align-items: center;
     justify-content: flex-end;
     padding-right: 0.5rem;
+}
+
+.blue{
+    background-color: #00008b;
+    height: 450px;
+}
+
+.blue div{
+    background-color: #ee82ee;
+    width: 50%;
+    height: 350px;
+}
+
+.skyblue-box{
+    width: 60%;
+    background-color: #1e90ff;
+
+}
+
+.lightpink-box{
+    width: 40%;
+    background-color: #ffc0cb;
+}
+
+.gray{
+    background-color: #d3d3d3;
+}
+
+.reverse-row{
+    flex-direction: row-reverse;
+}
+
+.big{
+    height: 900px;
+}
+
+.green{
+    background-color: #228b22;
+    height: 800px;
 }
