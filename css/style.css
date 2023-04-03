@@ -59,18 +59,15 @@ header div>*{
     border: black 2px dashed;
 }
 
-.logo{
-    width: 25%;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 0.5rem;
-}
-
+.logo,
 .login{
     width: 25%;
     align-items: center;
+    padding: 0.5rem;
+}
+
+.login{
     justify-content: flex-end;
-    padding-right: 0.5rem;
 }
 
 .blue{
@@ -159,13 +156,7 @@ div.columns>div{
     align-items: center;
 }
 
-.logo-footer{
-    height: 1.8rem;
-    padding: 0.5rem;
-    background-color: #ffb6c1;
-    
-}
-
+.logo-footer,
 .button{
     height: 1.8rem;
     padding: 0.5rem;
